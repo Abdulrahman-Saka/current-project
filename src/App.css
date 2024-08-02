@@ -1,15 +1,3 @@
-:root {
-  --color-light-1: #eff5f5;
-  --color-light-2: #d6e4e5;
-  --color-light-3: #497174;
-  --color-light-4: #eb6440;
-
-  --color-dark-1: #1a1a1a; /* Adjust as needed */
-  --color-dark-2: #2a2a2a; /* Adjust as needed */
-  --color-dark-3: #334444; /* Adjust as needed */
-  --color-dark-4: #442a1a; /* Adjust as needed */
-
-  --box-shadow-light: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-  --box-shadow-dark: 0 4px 8px rgba(0, 0, 0, 0.5);
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
